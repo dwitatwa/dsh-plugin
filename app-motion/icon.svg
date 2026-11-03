@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="App Motion">
+  <rect width="64" height="64" rx="14" fill="#1f2937"/>
+  <g fill="none" stroke="#4ade80" stroke-width="3.5" stroke-linecap="round" opacity="0.75">
+    <path d="M13 26a20 20 0 0 1 7-11"/>
+    <path d="M44 49a20 20 0 0 1-7 3"/>
+  </g>
+  <path d="M26 21.5 45 32 26 42.5Z" fill="#4ade80"/>
+</svg>
