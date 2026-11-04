@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "ASD-STE100 Style",
+    "description": "Adds a Simplified Technical English writing rule to the system prompt of every agent on this host."
+  }
+}

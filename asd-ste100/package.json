@@ -1,0 +1,23 @@
+{
+  "name": "@local/asd-ste100-style",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Adds an ASD-STE100 Simplified Technical English rule to every agent system prompt.",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+# The ASD-STE100 style bundle: one host row that adds a writing rule to every
+# agent system prompt. The row id and the package name stay unique, so a later
+# profile patch can override this row by id.
+- insert:
+    - id: asd-ste100-style
+      name: '@local/asd-ste100-style'
+      config: {}
