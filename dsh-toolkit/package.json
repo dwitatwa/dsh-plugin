@@ -1,0 +1,53 @@
+{
+  "name": "@local/dsh-toolkit",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Archived sessions manager, agent notifications, and the ASD-STE100 writing rule in one bundle with one settings page.",
+  "exports": {
+    ".": "./ui.js",
+    "./features/archived-sessions": "./features/archived-sessions/index.js",
+    "./features/archived-sessions/locale/*.json": "./features/archived-sessions/locale/*.json",
+    "./features/archived-sessions/icon": "./features/archived-sessions/icon.svg",
+    "./features/agent-notify": "./features/agent-notify/index.js",
+    "./features/agent-notify/locale/*.json": "./features/agent-notify/locale/*.json",
+    "./features/agent-notify/icon": "./features/agent-notify/icon.svg",
+    "./features/asd-ste100": "./features/asd-ste100/index.js",
+    "./features/asd-ste100/locale/*.json": "./features/asd-ste100/locale/*.json",
+    "./features/asd-ste100/icon": "./features/asd-ste100/icon.svg",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "client.js",
+    "ui.js",
+    "cordis.patch.yml",
+    "icon.svg",
+    "locale/*.json",
+    "features/archived-sessions/index.js",
+    "features/archived-sessions/icon.svg",
+    "features/archived-sessions/locale/*.json",
+    "features/archived-sessions/lib/*.js",
+    "features/agent-notify/index.js",
+    "features/agent-notify/telegram.js",
+    "features/agent-notify/icon.svg",
+    "features/agent-notify/locale/*.json",
+    "features/asd-ste100/index.js",
+    "features/asd-ste100/icon.svg",
+    "features/asd-ste100/locale/*.json",
+    "lib/http.js"
+  ],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-layout",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-locale"
+      ]
+    }
+  }
+}

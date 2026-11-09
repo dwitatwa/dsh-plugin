@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Agent notifications",
+    "description": "Sends a desktop notice, an in-window notice, and a Telegram message when a task finishes or waits for your answer."
+  }
+}

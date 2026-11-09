@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Notification bell">
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="#eaf0ff"/>
+  <path d="M32 13c-7.2 0-13 5.8-13 13v8.4c0 2.4-.9 4.7-2.6 6.4l-2.6 2.7h36.4l-2.6-2.7a9.1 9.1 0 0 1-2.6-6.4V26c0-7.2-5.8-13-13-13z" fill="#3563e9"/>
+  <circle cx="32" cy="11" r="3" fill="#3563e9"/>
+  <path d="M25.4 47.6a6.6 6.6 0 0 0 13.2 0z" fill="#1f3f9e"/>
+  <circle cx="45.5" cy="19.5" r="6.5" fill="#f5a524"/>
+</svg>

@@ -1,0 +1,16 @@
+# The DSH toolkit bundle: three features in one package. Each feature keeps its
+# own row id, so a later patch can disable one feature without a rebuild.
+- insert:
+    - id: toolkit-ui
+      name: '@local/dsh-toolkit'
+      config: {}
+    - id: toolkit-archived-sessions
+      name: '@local/dsh-toolkit/features/archived-sessions'
+      config: {}
+    - id: toolkit-agent-notify
+      name: '@local/dsh-toolkit/features/agent-notify'
+      config: {}
+    - id: toolkit-asd-ste100
+      name: '@local/dsh-toolkit/features/asd-ste100'
+      config:
+        enabled: true

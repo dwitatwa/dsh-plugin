@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Archived sessions",
+    "description": "Lists archived sessions and deletes their data from disk."
+  }
+}
